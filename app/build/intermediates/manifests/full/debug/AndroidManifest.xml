@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.douglimar.surpresinhaquina"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="br.com.douglimar.surpresinha_quina"
+    android:versionCode="6"
+    android:versionName="2.3.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="26" />
 
-    <!-- Required permission for App measurement to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="br.com.douglimar.surpresinhaquina.permission.C2D_MESSAGE"
+        android:name="br.com.douglimar.surpresinha_quina.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="br.com.douglimar.surpresinhaquina.permission.C2D_MESSAGE" />
+    <uses-permission android:name="br.com.douglimar.surpresinha_quina.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_surpresinha_quina"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_surpresinha_quina_rounded"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="br.com.douglimar.surpresinhaquina.MainActivity"
+            android:name="br.com.douglimar.surpresinha_quina.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="br.com.douglimar.surpresinhaquina.ResultActivity"
+            android:name="br.com.douglimar.surpresinha_quina.ConfiguradorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="br.com.douglimar.surpresinhaquina.ConfiguradorActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="br.com.douglimar.surpresinhaquina.Splash"
+            android:name="br.com.douglimar.surpresinha_quina.Splash"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,11 +44,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.com.douglimar.surpresinhaquina.WebviewActivity" />
+        <activity android:name="br.com.douglimar.surpresinha_quina.WebviewActivity" />
+        <activity
+            android:name="br.com.douglimar.surpresinha_quina.ResultActivity"
+            android:label="@string/title_activity_result2"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -89,11 +100,11 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="br.com.douglimar.surpresinhaquina" />
+                <category android:name="br.com.douglimar.surpresinha_quina" />
             </intent-filter>
         </receiver>
         <!--
- FirebaseInstanceIdService performs security checks at runtime,
+             FirebaseInstanceIdService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -106,9 +117,14 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="br.com.douglimar.surpresinhaquina.firebaseinitprovider"
+            android:authorities="br.com.douglimar.surpresinha_quina.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="br.com.douglimar.surpresinhaquina.ResultActivity"
+    tools:context=".ResultActivity"
     tools:showIn="@layout/activity_result">
+
 
     <TextView
         android:id="@+id/tvResult"
@@ -18,6 +19,5 @@
         android:textStyle="bold"
         android:textColor="@color/colorWhite"
         android:layout_margin="@dimen/text_margin"/>
-
 
 </android.support.v4.widget.NestedScrollView>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dmoraes\\AndroidStudioProjects\\SurpresinhaQuina2.3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/home/douglimar/workspace/AndroidStudioProjects/Surpresinha/Quina/SurpresinhaQuina2.3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\817553c3c1a15c4cd3c404e3d9520bc6\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/douglimar/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/9ac23a39d21b734c467d1ceb606f45ab/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\24a762e43e1ebb666348eeb4afb2ce1d\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/douglimar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/981b4993c87c4f88ae5d0096eb1bd221/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

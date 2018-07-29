@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://admob-app-id-7768880404.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">90221104273</string>
     <string name="google_api_key" translatable="false">AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ</string>
-    <string name="google_app_id" translatable="false">1:90221104273:android:6442bcbbb1ebc9ed</string>
+    <string name="google_app_id" translatable="false">1:90221104273:android:e50e0f33e0daedfb</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ</string>
     <string name="google_storage_bucket" translatable="false">admob-app-id-7768880404.appspot.com</string>
     <string name="project_id" translatable="false">admob-app-id-7768880404</string>

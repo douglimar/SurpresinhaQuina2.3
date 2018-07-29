@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:id="@+id/linearConfigurador"
     android:background="@color/colorQuina"
-    tools:context="br.com.douglimar.surpresinhaquina.MainActivity">
+    tools:context="br.com.douglimar.surpresinha_quina.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/colorWhite"
-            android:text="@string/megasena"
+            android:text="@string/quina"
             android:textSize="18sp"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center_vertical|center_horizontal"/>
@@ -32,13 +32,13 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textColor="@color/colorWhite"
-        android:layout_margin="4dp"
+        android:layout_margin="10dp"
         android:text="@string/hint_qtde_de_jogos_aleatorios" />
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="25dp"
+        app:cardCornerRadius="15dp"
         android:layout_margin="15dp"
         android:layout_marginTop="33dp">
 
@@ -94,7 +94,7 @@
     <com.google.android.gms.ads.AdView
         android:id="@+id/adViewConfigurador"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_TESTE"
+        ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_width="match_parent"
         android:layout_margin="6dp"
         android:layout_height="wrap_content"/>

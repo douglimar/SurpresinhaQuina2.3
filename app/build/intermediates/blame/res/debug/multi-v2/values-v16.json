@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dmoraes\\AndroidStudioProjects\\SurpresinhaQuina2.3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/home/douglimar/workspace/AndroidStudioProjects/Surpresinha/Quina/SurpresinhaQuina2.3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\8452e78b1b0d0c97c9656a4c0ec4f75e\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/douglimar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f25d9d2ab872d40393bd8566c1b0c4c4/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dmoraes\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\24a762e43e1ebb666348eeb4afb2ce1d\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/douglimar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/981b4993c87c4f88ae5d0096eb1bd221/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

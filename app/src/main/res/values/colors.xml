@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#2463a3</color>
+    <color name="colorPrimaryDark">#04366b</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
-    <color name="colorMegasenaDark">#065c20</color>
-    <color name="colorMegasena">#2b8b48</color>
     <color name="colorQuinaDark">#04366b</color>
     <color name="colorQuina">#2463a3</color>
-    <color name="colorLotofacilDark">#4a0659</color>
-    <color name="colorLotofacil">#8c23a4</color>
-    <color name="colorLotomaniaDark">#a64404</color>
-    <color name="colorLotomania">#e46918</color>
-    <color name="colorDuplasenaDark">#86081f</color>
-    <color name="colorDuplasena">#d41a3c</color>
 </resources>

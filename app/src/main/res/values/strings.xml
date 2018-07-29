@@ -1,29 +1,24 @@
 <resources>
-    <string name="app_name">Surpresinha da Quina</string>
+    <string name="app_name">Quina | Surpresinha da Loteria</string>
     <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/6241667500</string>
     <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="megasena">MEGA-SENA</string>
     <string name="quina">SURPRESINHA DA QUINA</string>
-    <string name="quina2">QUINA</string>
-    <string name="lotofacil">LOTOFÁCIL</string>
-    <string name="lotomania">LOTOMANIA</string>
-    <string name="duplasena">DUPLA-SENA</string>
     <string name="gerarMultiplosJogos">GERAR MÚLTIPLOS JOGOS</string>
     <string name="gerarJogoUnico">GERAR JOGO ÚNICO</string>
-    <string name="title_activity_result">ResultActivity</string>
     <string name="LastResults">Últimos Resultados</string>
-    <string name="googlePlayURL">https://tinyurl.com/q42fxeh</string>
+    <string name="googlePlayURL">https://tinyurl.com/no6dfja</string>
     <string name="hint_qtde_de_jogos_aleatorios">Utilize os botões abaixo para informar quantos jogos você quer gerar aleatóriamente (de 2 a 10 jogos)</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
     <string name="gerar_numeros">GERAR NÚMEROS</string>
     <string name="numeros_da_sorte">Estes são os seus números da sorte:\n %1$s </string>
     <string name="minimo_2_jogos">Você tem que gerar pelo menos 2 jogos aqui.</string>
-    <string name="maximo10jogos">Você tem que gerar NO MÁXIMO 10 jogos</string>
     <string name="tip_generateNewBets">Clique no botão azul para gerar novas apostas sem ter que sair da tela</string>
     <string name="compartilhando">Compartilhando</string>
     <string name="surpresinha">Surpresinha</string>
-    <string name="shareWith">Compartilhar com...</string>
+    <string name="shareWith">Compartilhar com…</string>
     <string name="title_activity_result2">Result2Activity</string>
-    <string name="action_settings">Settings</string>
+    <string name="maximo10jogos">Você pode gerar NO MÁXIMO 15 jogos ao mesmo tempo.</string>
+    <string name="internet_conn">Sem conexão com a Internet. Verifique suas conexões e tente novamente.</string>
+    <string name="btnGooglePlay">CONHEÇA NOSSOS APLICATIVOS</string>
 </resources>

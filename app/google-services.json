@@ -319,18 +319,233 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:90221104273:android:6442bcbbb1ebc9ed",
+        "mobilesdk_app_id": "1:90221104273:android:f3aa6315f5e24aab",
         "android_client_info": {
-          "package_name": "br.com.douglimar.surpresinhaquina"
+          "package_name": "br.com.douglimar.surpresinha_megasena"
         }
       },
       "oauth_client": [
         {
-          "client_id": "90221104273-nv2oahnugqtesccf5g3di2qbhd082rg5.apps.googleusercontent.com",
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:6fb8c4e8e0785385",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinhamega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-707rflf0kd93iifh17hj825eic5t6chd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.com.douglimar.surpresinhaquina",
+            "package_name": "br.com.douglimar.surpresinhamega",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-15ujeb5ecj4s7hbah7korgrrrevntcaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinhamega",
             "certificate_hash": "7d3ddf6e5d8484e9a3fe7e4888cb3f6b383dc925"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:45fcf9589438ea65",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_lotofacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-ikcgreshrd7k77oqq156lmaca59p5ecl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_lotofacil",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:21b0fede4dbf1c06",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_lotomania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-m1calb2j5acojl1tajbjsf6mq5rbck06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_lotomania",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:bdbbf7388a24f40f",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_duplasena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-pdfo3b88ih4t0ebjm1ri8haehshh4q3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_duplasena",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
+          }
+        },
+        {
+          "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90221104273:android:e50e0f33e0daedfb",
+        "android_client_info": {
+          "package_name": "br.com.douglimar.surpresinha_quina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90221104273-49l7v8f8tlh8k8r46ci0r2vo1vo723df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.douglimar.surpresinha_quina",
+            "certificate_hash": "1bb4e389e72ff1f11c084a0b8286031090b18aac"
           }
         },
         {

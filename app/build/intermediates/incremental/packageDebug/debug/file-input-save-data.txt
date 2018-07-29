@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Fri Dec 08 15:29:17 BRST 2017
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\dmoraes\\AndroidStudioProjects\\SurpresinhaQuina2.3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1

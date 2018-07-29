@@ -7,4 +7,13 @@
 package com.google.android.gms.ads.impl;
 
 public final class R {
+    public static final class string {
+        public static final int s1 = 0x7f0c0053;
+        public static final int s2 = 0x7f0c0054;
+        public static final int s3 = 0x7f0c0055;
+        public static final int s4 = 0x7f0c0056;
+        public static final int s5 = 0x7f0c0057;
+        public static final int s6 = 0x7f0c0058;
+        public static final int s7 = 0x7f0c0059;
+    }
 }
